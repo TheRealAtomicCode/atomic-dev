@@ -10,17 +10,17 @@ export default function Navbar() {
 
   const router = useRouter();
 
-  const signOut =  () => {
+  const signOut = () => {
     auth.signOut();
     router.reload();
-  }
+  };
 
   return (
     <nav className="navbar">
       <ul>
         <li>
           <Link href="/">
-            <button className="btn-logo">NXT</button>
+            <button className="btn-logo">Atomic.Dev</button>
           </Link>
         </li>
 
